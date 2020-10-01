@@ -212,19 +212,19 @@
     display:inline-block;
     width:1;
     font-size:70px;
-    color: black;
+    color: #ffffff;
     overflow:hidden;
     white-space: pre;
-    text-shadow: 1px 2px 0 white;
+    text-shadow: 1px 2px 0 #fff;
 }
 .halfStyle.hs-KevinGranger:before {
     display:block;
     z-index:1;
     position:absolute;
-    top:0;
+    top:auto;
     width: 50%;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
-    color: white;
+    color: #fff;
 }
 /* end half-style hs-KevinGranger
